@@ -50,3 +50,7 @@ variable "provider_arns" {
   default     = []
 }  
 
+variable "authorizer_type" {
+  type = "string"
+  default = "cognito_user_pools"
+}
