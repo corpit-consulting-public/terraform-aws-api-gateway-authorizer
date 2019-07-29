@@ -49,8 +49,3 @@ variable "provider_arns" {
   description = "(Optional, required for type COGNITO_USER_POOLS) A list of the Amazon Cognito user pool ARNs. Each element is of this format: arn:aws:cognito-idp:{region}:{account_id}:userpool/{user_pool_id}."
   default     = []
 }  
-
-variable "authorizer_type" {
-  type = "string"
-  default = "cognito_user_pools"
-}

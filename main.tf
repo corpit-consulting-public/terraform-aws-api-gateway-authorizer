@@ -4,5 +4,4 @@ resource "aws_api_gateway_authorizer" "authorizer_1" {
   authorizer_uri         = "${var.authorizer_uri}"
   provider_arns          = ["${var.provider_arns}"]
   type                   = "${var.type}"
-  authorizer_type        = "${var.authorizer_type}"
 }
