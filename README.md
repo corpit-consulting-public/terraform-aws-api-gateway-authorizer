@@ -1,5 +1,5 @@
 
-# terraform-aws-authorizer
+# terraform-aws-api-gateway-authorizer
 
 Terraform module that creates Api Gateway Authorizer resources in AWS
 
