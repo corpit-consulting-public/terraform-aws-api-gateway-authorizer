@@ -1,3 +1,4 @@
+# Deprecated
 
 # terraform-aws-authorizer
 
